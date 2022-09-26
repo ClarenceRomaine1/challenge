@@ -1,0 +1,44 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 14px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-color: hsl(212, 45%, 89%);
+    border-radius: 12px;
+    font-family: 'Outfit', sans-serif;
+    min-height: 100vh;
+}
+
+.img{
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 15px;
+    padding: 18px;
+}
+
+.container{
+    margin: 0 auto;
+    max-width: 360px;
+}
+
+.img img{
+    border-radius: 15px;
+    width: 100%;
+}
+
+.qr-content{
+    padding: 22px, 10px;
+}
+.qr-pro{
+
+}
+
+.qr-name{ 
+    color: hsl(218, 44%, 22%);
+    padding-bottom: 15px;
+}
